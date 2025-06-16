@@ -1,0 +1,35 @@
+# .gitignore for the 'backend/' directory
+
+# Python virtual environments
+venv/
+.venv/
+
+# Compiled Python files
+__pycache__/
+*.pyc
+
+# Distribution and build artifacts
+*.egg-info/
+build/
+dist/
+
+# Test caches
+.pytest_cache/
+
+data/
+
+# IDE-specific files (adjust as per your IDE)
+.idea/          # JetBrains IDEs (e.g., PyCharm)
+.vscode/        # VS Code settings (optional, can be shared)
+
+# Environment variables (critical to ignore)
+.env
+.env.*
+
+# Trained Models - NOTE: The .pkl file is *NOT* ignored here, so it WILL be tracked.
+# model/*.h5   # Example if you have other model formats you want to ignore
+# model/*.pth  # Example if you have other model formats you want to ignore
+
+ data/customer_churn_dataset-training-master.csv
+# Logs
+*.log
