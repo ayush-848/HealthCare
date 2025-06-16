@@ -136,4 +136,4 @@ if submitted:
         st.info("❤️ **No heart disease** reported. Maintain a healthy lifestyle to keep it that way.")
 # ---------- Footer ----------
 st.markdown("---")
-st.caption("📊 Model trained with real medical records. Predictions are estimations, not diagnoses.")
+st.caption("📊 Model trained with real medical records. Predictions are estimations, not diagnosis.")
